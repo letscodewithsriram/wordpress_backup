@@ -1,24 +1,24 @@
-Thu Jul 20 11:06:12 IST 2023 WORDPRESS BACKUP SCRIPTS - STARTED
-Thu Jul 20 11:06:12 IST 2023 VALIDATE DATE STAGE: Date Format Validation Started
-Thu Jul 20 11:06:12 IST 2023 VALIDATE DATE STAGE: Backup Archive Date: 2022-01-22
-Thu Jul 20 11:06:12 IST 2023 VERIFY FILE STAGE: File availability check in the remote server started
-Thu Jul 20 11:06:12 IST 2023 VERIFY FILE STAGE: Backup Archive Date Validation Success
-Thu Jul 20 11:06:12 IST 2023 VERIFY FILE STAGE: Backup Archive File Name: 2022-01-22.tar.gz
-Thu Jul 20 11:06:14 IST 2023 VERIFY SUCCESS STAGE: 2022-01-22.tar.gz is available in remote host (3.88.106.171)
-Thu Jul 20 11:06:14 IST 2023 :FILE TRANSFER STAGE: Initiating the file transfer from the Local to the remote worker node
-Thu Jul 20 11:06:17 IST 2023 :FILE TRANSFER STAGE: Successfully completed the file transfer from the Local to the remote worker node
-Thu Jul 20 11:06:17 IST 2023 :FILE UNZIP STAGE: Initiating the tar.gz unzip of the file on the local node
-Thu Jul 20 11:06:17 IST 2023 :FILE UNZIP STAGE: Successfully completed the unzip of the file on the local node
-Thu Jul 20 11:06:17 IST 2023 SANITY CHECK STAGE: Carriage Return - Removing the ctrl-m characters from the unzipped files
-Thu Jul 20 11:06:17 IST 2023 SANITY CHECK STAGE: Carriage Return - Successfully removed the ctrl-m characters from the unzipped files
-Thu Jul 20 11:06:17 IST 2023 PASSWORD CHANGE STAGE: Starting the password change stage
-Thu Jul 20 11:06:17 IST 2023 PASSWORD CHANGE STAGE: Old Password in wp-config.php is -  define('DB_PASSWORD', 'test_user_password');
-Thu Jul 20 11:06:17 IST 2023 PASSWORD CHANGE STAGE: Changing the password using the sed command
-Thu Jul 20 11:06:17 IST 2023 PASSWORD CHANGE STAGE: Successfully completed the password change task in the wp-config.php
-Thu Jul 20 11:06:17 IST 2023 PASSWORD CHANGE STAGE: New Password in wp-config.php is -  define('DB_PASSWORD', 'New_Baeldung12@#');
-Thu Jul 20 11:06:17 IST 2023 PASSWORD CHANGE STAGE: Successfully completed the password change stage
-Thu Jul 20 11:06:17 IST 2023 ARCHIVE STAGE: Initiating the file archive using the tar command and remove the original folder
-Thu Jul 20 11:06:17 IST 2023 ARCHIVE STAGE: Successfully completed the file archive using the tar command and removed the original folder
-Thu Jul 20 11:06:17 IST 2023 LOG CAPTURE STAGE: Starting the status update in backup-log.log file
-Thu Jul 20 11:06:17 IST 2023 LOG CAPTURE STAGE: Completed the status update in backup-log.log file
-Thu Jul 20 11:06:17 IST 2023 WORDPRESS BACKUP SCRIPTS - COMPLETED
+Thu Jul 20 11:18:26 IST 2023 WORDPRESS BACKUP SCRIPTS - STARTED
+Thu Jul 20 11:18:26 IST 2023 VALIDATE DATE STAGE: Date Format Validation Started
+Thu Jul 20 11:18:26 IST 2023 VALIDATE DATE STAGE: Backup Archive Date: 2022-01-22
+Thu Jul 20 11:18:26 IST 2023 VERIFY FILE STAGE: File availability check in the remote server started
+Thu Jul 20 11:18:26 IST 2023 VERIFY FILE STAGE: Backup Archive Date Validation Success
+Thu Jul 20 11:18:26 IST 2023 VERIFY FILE STAGE: Backup Archive File Name: 2022-01-22.tar.gz
+Thu Jul 20 11:18:28 IST 2023 VERIFY SUCCESS STAGE: 2022-01-22.tar.gz is available in remote host (3.88.106.171)
+Thu Jul 20 11:18:28 IST 2023 :FILE TRANSFER STAGE: Initiating the file transfer from the Local to the remote worker node
+Thu Jul 20 11:18:31 IST 2023 :FILE TRANSFER STAGE: Successfully completed the file transfer from the Local to the remote worker node
+Thu Jul 20 11:18:31 IST 2023 :FILE UNZIP STAGE: Initiating the tar.gz unzip of the file on the local node
+Thu Jul 20 11:18:31 IST 2023 :FILE UNZIP STAGE: Successfully completed the unzip of the file on the local node
+Thu Jul 20 11:18:31 IST 2023 SANITY CHECK STAGE: Carriage Return - Removing the ctrl-m characters from the unzipped files
+Thu Jul 20 11:18:31 IST 2023 SANITY CHECK STAGE: Carriage Return - Successfully removed the ctrl-m characters from the unzipped files
+Thu Jul 20 11:18:31 IST 2023 PASSWORD CHANGE STAGE: Starting the password change stage
+Thu Jul 20 11:18:31 IST 2023 PASSWORD CHANGE STAGE: Old Password in wp-config.php is -  define('DB_PASSWORD', 'test_user_password');
+Thu Jul 20 11:18:31 IST 2023 PASSWORD CHANGE STAGE: Changing the password using the sed command
+Thu Jul 20 11:18:31 IST 2023 PASSWORD CHANGE STAGE: Successfully completed the password change task in the wp-config.php
+Thu Jul 20 11:18:31 IST 2023 PASSWORD CHANGE STAGE: New Password in wp-config.php is -  define('DB_PASSWORD', 'New_Baeldung12@#');
+Thu Jul 20 11:18:31 IST 2023 PASSWORD CHANGE STAGE: Successfully completed the password change stage
+Thu Jul 20 11:18:31 IST 2023 ARCHIVE STAGE: Initiating the file archive using the tar command and remove the original folder
+Thu Jul 20 11:18:31 IST 2023 ARCHIVE STAGE: Successfully completed the file archive using the tar command and removed the original folder
+Thu Jul 20 11:18:31 IST 2023 LOG CAPTURE STAGE: Starting the status update in backup-log.log file
+Thu Jul 20 11:18:31 IST 2023 LOG CAPTURE STAGE: Completed the status update in backup-log.log file
+Thu Jul 20 11:18:31 IST 2023 WORDPRESS BACKUP SCRIPTS - COMPLETED

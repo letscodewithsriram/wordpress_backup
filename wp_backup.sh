@@ -83,7 +83,7 @@ then
 	echo `date` "ARCHIVE STAGE: Successfully completed the file archive using the tar command and removed the original folder" >> runtime.log
 	
 	echo `date` "LOG CAPTURE STAGE: Starting the status update in backup-log.log file" >> runtime.log
-	echo `date +%Y-%b-%d` ",DOWNLOADED,VERIFIED" >> backup-log.log
+	echo "$1,DOWNLOADED,VERIFIED" >> backup-log.log
 	echo `date` "LOG CAPTURE STAGE: Completed the status update in backup-log.log file" >> runtime.log
 	
 fi
